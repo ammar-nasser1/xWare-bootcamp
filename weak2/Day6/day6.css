@@ -1,0 +1,136 @@
+body{
+
+    background-color: antiquewhite;
+    margin: 0 auto ;
+    padding: auto;
+
+
+}
+header{
+    /* margin: 800px  ; */
+    background-color: cornflowerblue;
+    border-bottom: 1px solid forestgreen;
+    position: relative;
+   
+    width: 100%;
+    z-index: 10px;
+
+}
+ul{
+
+
+    margin: 30px;
+    padding: 0 20px;
+text-align: center;
+
+
+}
+li{
+color: brown;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+padding: 20px;
+width: 80;
+display: inline-block;
+text-transform: uppercase;
+
+}
+li:hover{
+    color:blue ;
+
+}
+h1{
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    /* margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto; */
+    text-transform: uppercase;
+    font-style: italic;
+}
+h2{
+color:black;
+font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+font-weight: 100;
+margin: auto;
+/* opacity:0.25;  */
+
+}
+h3{
+    color: rgb(213, 226, 18);
+font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+padding: 30px;
+
+margin: auto;
+
+}
+h4{
+
+
+
+
+    color: rgba(143,188,143,.8);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+ text-align: center;
+ text-transform: uppercase;
+
+}
+p{
+color: hal(225,100%,25);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+
+
+
+
+}
+footer{
+
+
+    background-color: blue;
+    height: 100px;
+    margin-top: 800px;
+
+}
+.welcome{
+
+
+    background-color: crimson;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top:50px;
+    box-sizing: border-box;
+
+}
+.question{
+    
+text-align: center;
+position: relative;
+top: 40pc;
+clear: left;
+
+}
+.answer{
+    
+    margin: 20px;
+    display: block ;
+    border: 1px solid #333;
+}
+.answer :hover{
+background-color: cadetblue;
+color: rgb(222, 22, 22);
+
+
+}

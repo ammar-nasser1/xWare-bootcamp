@@ -1,0 +1,64 @@
+body
+{
+border: 0;
+margin: 0;
+font-family: "Roboto Mono",monospace;
+
+
+
+}
+h1{
+    /* margin: 18PX; */
+    font-size: 30px;
+    text-align: center  ;
+    display: block;
+
+
+}
+.container{
+flex-wrap: wrap;
+display:Flex;
+background-color:blue;
+height: 150px;
+width: 100%;
+/* justify-content: center; */
+
+
+}
+.side,
+.center
+
+{
+
+height: 150px;
+width: 125px;
+background-color: cadetblue;
+border: 2px solid darkblue;
+display:inline-block;
+
+
+}
+#top .side{
+/* flex: 2 2 100px; */
+
+}
+#top .center{
+  flex: 1 2 50px;
+
+}
+#center {
+
+    align-items: center;
+}
+#baseline{
+align-items: baseline;
+
+}
+#stretch{
+align-items: stretch;
+
+}
+h2{j
+font-size: 18;
+text-align: center;
+}

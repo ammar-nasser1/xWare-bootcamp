@@ -1,0 +1,82 @@
+body{
+margin: 0;
+background-color: bisque;
+background-image: url(sd.jpg) ;
+background-size: cover;
+border: 10px red sold;
+border-radius: 20px;
+/* background-image:url(Amazon.jpg) ; */
+}
+
+
+.body
+{
+    align-items: center;
+    display:flex;
+    justify-content:     center;
+    
+}
+
+.container{ 
+    
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0PX;
+    margin: auto;
+    background-color: black;
+    height: 2cm;
+
+
+
+
+
+}
+h1{
+    /* margin: 18PX; */
+    font-size: 15px;
+    direction: rtl;
+    
+    overflow: hidden;
+    padding: 20px;
+    text-align: center  ;
+    display: block;
+    color: aliceblue;
+
+
+}
+h1:hover{
+
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+p{
+text-align: center;
+
+font-size: 100px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+h2{
+
+    border: 2px black solid;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    
+    width: 5cm;
+    background-color: rgba(102,145,165,0.5 );
+    border-radius: 50%;
+    
+    
+    /* width: 50%; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 15cm;
+}
