@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    /* margin: 20px auto; */
+    background-color: black;
+    max-height: 100%;
+    max-width: 100%;
+}
+.box{
+
+    background-color:blue;
+    color: black;
+    text-align: center;
+}
+
+.container{
+
+    /* grid-auto-rows: minmax(150px,auto); */
+
+    grid-template-rows: 140px 210px 200px 50px 50px;
+
+
+/* {  max-height: 100%; */
+     /* max-width: 100%; */
+    margin: auto;
+    position: relative;
+    display: grid;
+  /* max-width: 100%; */
+  grid-gap: 4px;
+   
+  grid-template-areas: 
+  "nav header header"
+  "nav main main"
+  "nav main main "
+  "nav main main "
+  "footer footer footer"
+  
+  ;
+
+
+
+
+
+}
+h1  {
+
+    color: aliceblue;
+}
+.header{ 
+    text-align:center;
+background-color: black;
+grid-area:header;
+
+
+}
+img{
+    
+    width: 50px;
+}
+.nav{
+    text-align: center;
+    
+    background-color:rgba(60, 59, 59, 0.467);
+    display: grid;
+    
+    grid-area: nav;
+    align-items: center;
+}
+.footer
+{
+background-color:black;
+color: aliceblue;
+grid-area: footer;
+width: auto;
+
+
+} 
+.main{
+
+    grid-area: main;
+}
+.nav .sn{
+    word-spacing: 20px;
+    font-style: oblique;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    color:white;
+    align-items: center;
+    /* justify-content: center; */
+}
+.sn :hover{
+
+    background-color:cadetblue;
+}
+.para{
+
+    color: black;
+    font-size: 80px;
+}

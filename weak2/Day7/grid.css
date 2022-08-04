@@ -1,0 +1,63 @@
+body{
+
+    background-color: aliceblue;
+}
+
+
+
+.grid{
+display: grid;
+border: 2px solid blue;
+width: 400px;
+height: 500px;
+/* grid-template-columns: 100px 50% 200px;
+grid-template-rows: 40% 50% 50%; */
+ /* grid-template: 100px 50% 2fr / 40% 50% 50%; -short hand */
+
+ grid-template: repeat(4,1fr 2fr)/repeat(4,3fr 2fr);
+/* column-gap: 5px;
+row-gap: 20; */
+ gap: 20px 5px; /*short hand */
+
+
+}
+.box{
+    
+background-color:bisque;
+color: black;
+border-radius: 5PX;
+border: 2px solid blue;
+
+
+}
+/* .a{ */
+/* grid-row-start: 1;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 4; */
+/* grid-row: 1/15;
+
+
+
+} */
+/* .b{
+
+    grid-column: 2/15;
+} */
+
+
+.a{
+    grid-area: 5/ 1 / span 2/span 2;
+
+
+
+}
+.b{
+
+
+    grid-area: 2/2 / span 3/span 6;
+}
+.c{
+
+    grid-area: 6/ 8 / span 3 / span 1 ;
+}
