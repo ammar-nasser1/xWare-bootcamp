@@ -1,0 +1,353 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+body{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    animation: transitionin 7s;
+    position: relative;
+}
+@keyframes transitionin {
+    from{
+        opacity: 0;
+        transform:perspective(0)
+    }
+    to{
+        opacity: 1;
+        transform:perspective(20)
+    }
+}
+.header
+
+{ 
+    /* transition: opacity 1s ease; */
+    background-image: linear-gradient(to top right,#76C88D , #5446B7);
+
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-attachment: fixed, fixed;
+    background-size: auto, cover;
+    /* background-ime: linear-gradient(45deg,#76C88D 20% , #5446B7 10% , #4892ab00 10% , #4892ab00 10% ,#4a79ad00 10% ,#4f68b200 10%,#524bb400 10%); */
+    transition: opacity 1s ease;
+    
+}
+.cont{
+    font-family:"Source Sans Pro";
+    letter-spacing: 2px;
+    font-weight:lighter;
+    /* position: relative; */
+    padding: 200px;
+    /* width: 100vw;
+    height: 600px; */
+
+    color: white;
+    line-height: 1.35em;
+    /* display: grid; */
+    /* grid-template-columns: 1000px;
+    grid-template-rows: 100px 50px 100px 100px;
+    grid-template-areas: "ico"
+                         "h1"
+                         "p"
+                         "b";
+                        
+      justify-content: center;
+      align-items: center; */
+    
+
+}
+
+.hh::after {
+
+    background: white;
+    content: '';
+    height: 110px;
+    left: 50%;
+    position: absolute;
+    bottom: 90px;
+    width: 1px;
+    /* border: 3px solid white; */
+
+}
+.title{
+    
+    font-weight:bolder;
+    position: relative;
+    right: 80px;
+    left: 30px;
+}
+button{
+width: 200px;
+height: 50px;
+overflow: hidden;
+background-color: transparent;
+border: 1PX solid rgba(255, 255, 255, 0.91);
+
+/* box-shadow: 0 6px 6px rgb(255, 255, 255); */
+
+
+}
+button:hover{
+    background-color: rgba(255, 255, 255,0.2);
+}
+.f{ /*buttun*/
+    
+    margin: 10px;
+    color: rgba(11, 8, 8,0.6);
+    
+border: 1PX solid rgba(255, 255, 255, 0.5);
+    
+    
+    border-radius: 5px;
+    
+}
+.fas{
+    font-size: 100px;
+    color: white;
+}
+.container{
+    margin: auto auto auto auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+
+
+}
+.head1 h2{
+    font-family:"Source Sans Pro";
+    color: #5446B7;
+    font-weight:lighter;
+    line-height: 1.35em;
+    font-size: 30px;
+}
+
+.head1 {
+    font-family:"Source Sans Pro";
+   margin: auto;
+    width: 500px;
+    height: 300px;
+    text-align: left;
+    
+}
+img{
+    border-radius: 20px;
+}
+.section2{
+    padding: 3px;
+    margin: auto;
+    width: 1fr;
+    height: 800px;
+
+    
+    display: flex;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed;
+    background-image:  url(header.jpg);
+    background-size: auto, cover;
+}
+.major{
+    text-decoration: none;
+    font-family:"Source Sans Pro";
+
+    font-style: normal;
+    letter-spacing: 2px;
+    
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+
+   
+}
+header .major h2::after{
+    background: rgba(84, 42, 42, 0.5);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin-top: 5px;
+    width: 6px;
+    border: solid 3px red;
+    position: absolute;
+
+
+}
+hr{
+
+    
+    text-align: left;
+    width:70%; 
+    
+}
+.more{
+    border: 1PX solid black;
+    
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.sec2{
+
+    margin-top: 200px;
+    width: 40%;
+    height: 1000px;
+    text-align: left;
+    letter-spacing:1px;
+    word-spacing: 5px;
+    padding-left: 150px;
+
+    /* margin-right: 149px; */
+}
+.pic{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+   
+}
+.texalign{
+   
+    /* margin-left: 100px; */
+    text-align: center;
+    font-family:"Source Sans Pro";
+    color: rgba(11, 8, 8,0.6);
+    letter-spacing: 2px;
+    font: weight 1px;
+
+
+
+}
+.sec3{
+    height: 800px;
+    width: 100%;
+}
+.icons li{
+    margin: 30px;
+    list-style: none;
+    width: 
+    
+    90px;
+    padding: 30px;
+    border: 1PX solid white;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+
+    
+}
+.icons{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40%;
+    height:400px ;
+    font-size: 70px;
+
+
+}
+.icons {
+    
+    transform: rotate(90deg);
+    
+    
+    flex-direction: column-reverse;
+
+}
+
+.icons i {
+    transform: rotate(-45deg);
+    margin: 10 px;
+}
+
+
+table{
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+.sec4{
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed, fixed;
+    background-image:  url(header.jpg);
+    background-size: auto, cover;
+    width: 100%;
+    height: 400px;
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-image: linear-gradient(to top right,#76C88D , #5446B7);
+
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    /* align-items: center; */
+   
+
+}
+.cc{
+    color: white;
+    opacity: 0.9;
+    font-size: 30px;
+    margin:20px;
+}
+p{
+    font-family:'Source Sans Pro';
+
+}
+.iconFooter{
+    /* display: flex; */
+    /* justify-content: center; */
+
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em  1em 1em -8em ;
+    /* padding: 2px; */
+    
+    height: 10px;
+    
+
+}
+
+
+.line2{
+    border-bottom: 1px solid rgb(194, 180, 180);
+    position: relative;
+    right:-210px;
+    bottom:20px;
+    width: 150px;
+}
+.line1{
+    border-bottom: 1px solid rgb(194, 180, 180);
+    position: relative;
+    
+    bottom:20px;
+    width: 130px;
+}
