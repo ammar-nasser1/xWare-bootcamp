@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>table</title>
+</head>
+<body>
+  <h2>Table</h2>
+ <table >
+   <thead>
+     <tr>
+     <th scope="col">saturday</th>
+     <th>sunday</th>
+     <th>monday</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+   <td colspan="2">walking</td>
+   <td rowspan="2">running walking </td>
+   <td>swimming</td>
+   </tr>
+   </tbody>
+   <tfoot>
+     <tr>
+       <th>total</th>
+       <td>50</td>
+       <td>70</td>
+     </tr>
+   </tfoot>
+  </table> 
+ 
+  <!-- forms -->
+  <form action="#" method="POST">
+    <label for="meal">what do you want to eat?</label>
+  <input id="meal" type="text" placeholder="burger" value="pre-filled"  name="text-meal" />
+  <input type="password" name="pass" id= "user-pass"/>
+  <section>
+<span>what is your fav animal?</span>
+<br>
+    <label for="cat">Cat</label>
+    <input type="checkbox" name="cat" value="cat" id="cat"/>
+    <label for="dog">Dog</label>
+    <input type="checkbox" name="dog" value="dog" id="dog"/>
+ 
+  </section>
+  <section>
+<span>what is your fav animal?</span>
+<br>
+    <label for="cat">Cat</label>
+    <input type="radio" name="cat" value="cat" id="cat"/>
+    <label for="dog">Dog</label>
+    <input type="radio" name="dog" value="dog" id="dog"/>
+ 
+  </section>
+    <section>
+    <select id="cities" name="cities">
+      <option value="asyut">asyut</option>
+      <option>cairo</option>
+      <option>sohag</option>
+    </select>
+  </section>
+
+  <section>
+    <h1>Select your Favort Player</h1>
+    <label for="food">food</label>
+  <input name="sandwiches" type="text" id="food" list="data"/>
+  <datalist id="data">
+    <option value="t3mea">t3mea</option>
+    <option value="btats">btats</option>
+    <option></option>
+  </datalist>
+  </section>
+  <textarea id="paragraph" name="paragraph" rows="5" cols="3"></textarea>
+  <input type="submit" name="submit" value="submit"/>
+  </form>
+</body>
+</html>
